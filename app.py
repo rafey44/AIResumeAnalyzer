@@ -115,7 +115,7 @@ Important rules:
         )
 
         response = client.models.generate_content(
-            model="openai/gpt-oss-120b",
+            model="gemini-3.5-flash-lite",
             contents=[pdf_part, prompt],
         )
 
